@@ -1,0 +1,6 @@
+Future
+---
+Abstract the ride component.
+-Create a child component ride-details.
+-Utilize AfterViewInit lifecycle hook
+-Utilize EventEmitter class for passing the ride object from child to parent and vice-versa

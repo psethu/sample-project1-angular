@@ -1,0 +1,20 @@
+Initial steps
+---
+Front end             : Angular
+Scaffolding           : Yes, with command "ng new"
+Routing module chosen : Yes
+Chosen stylesheet     : SCSS
+
+
+Business logic
+---
+unit fare
+<  6 miles-use mileage
+>= 6 miles-use time
+
+
+Objectives
+---
+Determine fare amount from provided criteria
+
+
