@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RideComponent implements OnInit {
 
+  name:string;
+  minutes:string;
+  miles:string;
+  date:string;
+  time:string;
+
   constructor() { }
 
   ngOnInit(): void {
