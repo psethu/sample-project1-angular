@@ -3,7 +3,7 @@
     Passenger
     <input type="text" name="passenger" value="Rajinikanth" required>
 
-    Minutes    
+    Minutes     
     <input type="number" name="minutes" placeholder="10" min="0" required appValidateInput>
     
     Miles
@@ -22,9 +22,27 @@
     </form>
 
     <br>
-    <button type="button" name="show" class="btn"> List fares</button> <!-- (click)="getMovies()" -->
+    <button type="button" name="show"  (click)="getTaxiRides()" class="btn"> List fares</button> 
 
     <div class="content">
-         
+        <div *ngIf="taxiRides" class="table-center">
+        <table>
+          <!-- <thead>
+            <tr>
+              <th>Name</th>
+              <th>Genre</th>
+              <th>Director</th>
+            </tr>
+          </thead> -->
+          <tbody>
+            <tr *ngFor='let taxiRide of taxiRides'>
+              <td>{{taxiRide?.inNY}}</td>
+              <td>{{taxiRide?.minutes}}</td>
+              <td>{{taxiRide?.miles}}</td>
+              <td>{{taxiRide?.date}}</td>
+            </tr>
+          </tbody>
+        </table>
+     </div>         
       </div>    
 </div>
