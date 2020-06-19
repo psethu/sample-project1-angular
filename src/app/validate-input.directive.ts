@@ -10,7 +10,7 @@ export class ValidateInputDirective {
     let value:number = parseInt(this.el.nativeElement.value) || 0; // when value is empty string: Nan || 0 evaluates to 0
     console.log(value);
       if (value <= 0)
-        this.highlight('yellow');
+        this.highlight('#e6e600');
   }
 
   @HostListener('mouseleave') onMouseLeave() {
