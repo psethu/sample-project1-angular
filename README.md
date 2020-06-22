@@ -10,7 +10,7 @@ https://angular.io/guide/setup-local
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Notes  
+## Features  
 
 1. Adheres to component based design principles  
 2. Utilizes Angular routing  (ie. Home vs. About pages)
